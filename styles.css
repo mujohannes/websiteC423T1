@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* style 
+for 
+h1 */
+h1 {
+    text-decoration: underline;
+}
+
+p {
+    color: green;
+}
+
+.first {
+    color: yellow;
+}
+
+.days {
+    font-size: 16pt;
+    width: 50%;
+}
+.days li:first-child {
+    background-color: white;
+    color: red;
+}
+.days li:last-child {
+    background-color: yellow;
+    color: black;
+}
+.days li:nth-child(3) {
+    background-color: green;
+    color: yellow;
+}
+
+
